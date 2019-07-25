@@ -1,9 +1,6 @@
 import os
 import praw
 import basilica
-from dotenv import load_dotenv
-
-load_dotenv()
 
 user_agent = "LambdaAnalysisClient/0.1 by " + os.getenv("REDDIT_USERNAME")
 
